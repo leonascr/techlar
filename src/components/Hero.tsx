@@ -10,7 +10,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/assets/imgs/hero.jpeg"
+          src="/assets/imgs/hero2.png"
           alt="Área externa com cobertura premium Techlar"
           fill
           quality={90}
