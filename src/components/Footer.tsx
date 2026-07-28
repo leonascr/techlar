@@ -24,7 +24,7 @@ export function Footer() {
         {/* Links */}
         <div className="flex flex-col gap-4">
           <h4 className="font-display font-medium mb-2">A Empresa</h4>
-          <a href="https://pergotech.com.br" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-brand-yellow text-sm transition-colors">Sobre a Fábrica</a>
+
           <Link href="#projetos" className="text-white/60 hover:text-brand-yellow text-sm transition-colors">Projetos Residenciais</Link>
           <Link href="#projetos" className="text-white/60 hover:text-brand-yellow text-sm transition-colors">Projetos Comerciais</Link>
         </div>

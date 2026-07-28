@@ -10,8 +10,8 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/assets/projetos/techlar-hero-bg-2.png"
-          alt="Pergolado de alto padrão em ambiente de restaurante na costa"
+          src="/assets/imgs/hero.jpeg"
+          alt="Área externa com cobertura premium Techlar"
           fill
           quality={90}
           className="object-cover object-[center_70%]"
@@ -30,7 +30,7 @@ export function Hero() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
-            <span className="inline-block font-mono text-[11px] uppercase tracking-[0.2em] text-brand-yellow mb-6">
+            <span className="inline-block font-mono text-[13px] uppercase tracking-[0.2em] text-brand-yellow mb-6">
               A Arquitetura do Conforto
             </span>
           </motion.div>
@@ -41,15 +41,15 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
             className="font-display text-4xl md:text-6xl lg:text-7xl font-semibold text-white leading-[1.1] tracking-tight mb-6"
           >
-            Expandindo os limites <br className="hidden md:block" />
-            do seu ambiente.
+            Faça chuva ou faça sol, <br className="hidden md:block" />
+            a escolha é sua.
           </motion.h1>
 
           <motion.p 
             initial={{ y: 24, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-            className="text-lg text-white/80 max-w-[45ch] leading-relaxed mb-10"
+            className="text-[22px] text-white/80 max-w-[45ch] leading-relaxed mb-10"
           >
             Projetamos e fabricamos soluções premium em coberturas retráteis e pergolados para projetos residenciais e comerciais.
           </motion.p>
